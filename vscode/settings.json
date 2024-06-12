@@ -115,5 +115,9 @@
   "textlint.autoFixOnSave": true,
   "textlint.configPath": "/Users/tomoaki.oiki/src/github.com/plaidev/karte-io-systems/systems/issues/.textlintrc",
   "svelte.plugin.svelte.note-new-transformation": true,
-  "git.openRepositoryInParentFolders": "always"
+  "git.openRepositoryInParentFolders": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": false
 }

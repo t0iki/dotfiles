@@ -16,4 +16,5 @@
     p = !git push origin `git rev-parse --abbrev-ref HEAD`
     fp = !git push --force-with-lease origin `git rev-parse --abbrev-ref HEAD`
     co = !git checkout
+	pt = !\\git branch --set-upstream-to=origin/$(git symbolic-ref --short HEAD) && git pull
 
