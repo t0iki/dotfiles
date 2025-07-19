@@ -9,16 +9,9 @@ tfenv
 httpie
 aws
 jq
-yabai # https://github.com/koekeishiya/yabai/wiki/Disabling-System-Integrity-Protection
-shkd
-fig
 
 # gui
-google日本語入力
 vscode
-slack
-line
 docker
 iterm2
-mysqlworkbench
-clipy
+raycast
