@@ -104,7 +104,7 @@ alias mpr="gh pr list -A @me -w"
 alias zshrc='vim ~/.zshrc'
 alias zshrcs='source ~/.zshrc'
 alias c="powered_cd"
-alias ls="exa"
+alias ls="eza"
 alias awsp="source _awsp"
 alias lzd="lazydocker" 
 alias fr='ghq get --look $(ghq list | fzf --layout=reverse --height 50% +m --preview "bat --color=always --style=header,grid --line-range :80 $(ghq root)/{}/(README|readme).*" )'
